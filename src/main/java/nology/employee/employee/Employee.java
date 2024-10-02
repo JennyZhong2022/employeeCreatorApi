@@ -16,7 +16,7 @@ import jakarta.persistence.TemporalType;
 import jakarta.validation.constraints.Email;
 
 @Entity
-@Table(name = "employee_creator")
+@Table(name = "creator")
 public class Employee {
 
   @Id
